@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="제품 디자이너이자 프론트엔드 엔지니어 정지훈의 예시 포트폴리오"
+    />
+    <title>정지훈 | Product Designer & Frontend Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#home" aria-label="홈으로 이동">
+          <span class="brand-mark" aria-hidden="true">JH</span>
+          <span>Jihoon Jeong</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-navigation"
+          aria-label="메뉴 열기"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="primary-nav" id="primary-navigation" aria-label="주요 메뉴">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+
+        <a class="header-cta" href="#contact">Get in Touch</a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="glow glow-one" aria-hidden="true"></div>
+        <div class="glow glow-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <span class="status-pill"><i></i> 새로운 프로젝트 참여 가능 · SAMPLE PROFILE</span>
+            <div class="identity-line">
+              <h1 id="hero-title">정지훈</h1>
+              <span>JIHOON JEONG</span>
+            </div>
+            <p class="role">Product Designer &amp; Frontend Engineer</p>
+            <h2>사용자 경험과 기술의 경계를 잇는 인터랙티브 프로덕트 디자이너</h2>
+            <p class="hero-description">
+              직관적인 인터랙션 설계부터 견고한 프론트엔드 아키텍처까지, 복잡한 문제를
+              명쾌하고 감각적인 디지털 경험으로 전환합니다.
+            </p>
+            <div class="meta-row" aria-label="기본 정보">
+              <span><b aria-hidden="true">⌖</b> Seoul, South Korea</span>
+              <span><b aria-hidden="true">◇</b> Design Systems &amp; Web</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#projects">프로젝트 둘러보기 <span>→</span></a>
+              <a class="button button-secondary" href="#contact">연락하기 <span>□</span></a>
+            </div>
+          </div>
+
+          <div class="portrait-wrap reveal" aria-label="프로필 사진">
+            <div class="portrait-halo"></div>
+            <div class="portrait-card">
+              <img
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFQovciOGgxIMMtgQp_RlxMAoSJSzCOCGel98cu1K9OZis3MTqbIPr69XTjvg6YvL6wWqwN2Yzipwq5Ky_1gKZ2kcX5CXFHhGJh3OWdSbADlpm0NZC4d-wUG5Uz0Bec8HwSF1wPFoquHKBxa1XVP3KgUUlEC0VJUvulrzlGMK5aAjGFQua0ZsRFOxA7DdEutjiv_gbzxpRJvjX4xvWtc78mgUB9v0dhw7xx9Ug4rUsOrgpHb7Wl4NV"
+                alt="예시 프로필 인물 사진"
+              />
+            </div>
+            <div class="portrait-label">
+              <small>ROLE FOCUS</small>
+              <strong>Design Systems · Frontend</strong>
+              <span aria-hidden="true">◎</span>
+            </div>
+            <div class="portrait-stack">● Figma + React + TypeScript</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats section-compact" aria-label="주요 성과">
+        <div class="container stat-grid">
+          <article class="stat-card reveal"><span>EXPERIENCE</span><b>5+</b><p>프로덕트 디자인 및 개발 경력</p></article>
+          <article class="stat-card reveal"><span>SHIPPED</span><b>24+</b><p>상용 배포 완료 프로젝트</p></article>
+          <article class="stat-card reveal"><span>CLIENT TRUST</span><b>99%</b><p>고객 및 파트너사 협업 만족도</p></article>
+          <article class="stat-card reveal"><span>SYSTEM IMPACT</span><b>40%</b><p>디자인 시스템을 통한 속도 단축</p></article>
+        </div>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="eyebrow">01 / PROFILE · SAMPLE</span>
+            <h2 id="about-title">About Me <em>— 저에 대해 소개합니다</em></h2>
+            <p>디자인과 기술 사이에서 복잡한 문제를 단순하고 의미 있는 경험으로 만듭니다.</p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-profile reveal">
+              <div class="about-photo">
+                <img
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEPic6tpPc4nIL7QoLOELQpwSVIJ5vJTaNny35HlWnxJdI5DNKOWu5nl5ARH5YSWMAk4ev3-77NYwDtBRyY8RK4lLkUXjDnaxpjr5IAvTs2IJMsjdUYu_lRnIDHfv2NiYLtN4wN_eYgqHnEFnKvXre7wG9IeKVYDZNCuXjQsaX5IPFAVLSZTh0H4Te36PMzQWFwRj_PvZkK3djnpiIwzFKbn3lP22modnl9n6Bb-cd13aPh7gzHWII"
+                  alt="작업 공간에 앉아 있는 예시 프로필 인물"
+                  loading="lazy"
+                />
+                <div><small>DESIGN STRATEGY</small><strong>사용자와 비즈니스를 연결하는 설계</strong></div>
+              </div>
+              <blockquote>
+                “좋은 디자인은 설명이 없어도 자연스럽게 이해되고, 좋은 코드는 그 경험을
+                오래 지속시킵니다.”
+              </blockquote>
+            </div>
+
+            <div class="about-content reveal">
+              <span class="eyebrow">ACADEMIC FOUNDATION</span>
+              <h3>전공 및 학력 <em>(Major &amp; Education)</em></h3>
+              <div class="education-list">
+                <article>
+                  <span class="info-icon">♙</span>
+                  <div><h4>디자인 엔지니어링 석사 (M.S.)</h4><p>Example Institute · 인터랙션 디자인과 HCI를 중심으로 연구했습니다.</p></div>
+                  <time>2020 — 2022</time>
+                </article>
+                <article>
+                  <span class="info-icon">▣</span>
+                  <div><h4>컴퓨터공학 &amp; 인터랙션 디자인 복수전공</h4><p>Example University · 웹 기술과 사용자 경험 설계의 기반을 다졌습니다.</p></div>
+                  <time>2014 — 2018</time>
+                </article>
+              </div>
+              <div class="skill-cloud">
+                <span>Design Systems</span><span>Product Strategy</span><span>React</span>
+                <span>TypeScript</span><span>User Research</span><span>Prototyping</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="competency-grid reveal">
+            <article><span>CORE ARCHITECTURE</span><h3>디자인 시스템</h3><p>일관된 경험을 만드는 토큰, 컴포넌트, 문서화 체계를 설계합니다.</p></article>
+            <article><span>GRAPHICS &amp; MOTION</span><h3>인터랙티브 웹 &amp; 3D</h3><p>기능적이면서도 기억에 남는 움직임과 시각적 피드백을 구현합니다.</p></article>
+            <article><span>NEXT-GEN INTERFACE</span><h3>AI 기반 UX</h3><p>생성형 AI를 실제 사용자 흐름 안에 명료하게 통합합니다.</p></article>
+            <article><span>EMPIRICAL VALIDATION</span><h3>사용자 리서치</h3><p>정성·정량 데이터를 바탕으로 가설을 검증하고 제품을 개선합니다.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects section" id="projects" aria-labelledby="projects-title">
+        <div class="container">
+          <div class="projects-heading reveal">
+            <div>
+              <span class="eyebrow">02 / CURATED PORTFOLIO ARCHIVE</span>
+              <h2 id="projects-title">Featured Projects <em>— 주요 프로젝트</em></h2>
+              <p>사용자 경험과 비즈니스 임팩트를 함께 설계한 예시 프로젝트입니다.</p>
+            </div>
+            <span class="selected-badge">✺ 엄선된 핵심 엔지니어링 사례</span>
+          </div>
+
+          <div class="project-grid">
+            <a class="project-card reveal" href="https://github.com/topics/fintech" target="_blank" rel="noopener noreferrer" aria-label="FinFlow 관련 링크 열기">
+              <div class="project-image">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBytXGsgLBE94KmdsRD5Pd1WFkE07RXZvef3DcL2qkOMGWrexqXMEIbnE9odU5gEIJF4pt6-pffhzbXDrD_Jf4U9C6QoYbOkuR5SJXjPwdk-xc1T4-jCCc05d9w30Yb8oQSAU2WdLGAGtrLZ7jZlJ_Z7aHRZv5ojxR-KEk06pdmUFDzKzYojT8iXem8gLlrthsuALUIjfRSAI9_M-sKFQZAVpCQ-ywQrvHT8x11OKmEDuSRBsQf5LTy" alt="FinFlow 금융 대시보드" loading="lazy" />
+                <span>Responsive Web &amp; App</span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Project 01</span><time>2024 — 2025</time></div>
+                <h3>FinFlow</h3><h4>차세대 자산 관리 핀테크 플랫폼</h4>
+                <p>복잡한 금융 데이터와 포트폴리오를 직관적인 차트와 실시간 대시보드로 시각화했습니다.</p>
+                <div class="result"><small>↗ 정량적 성과</small><b>MAU 150만 돌파 · 전환율 32% 상승</b></div>
+                <div class="tags"><span>FinTech</span><span>Design System</span><span>React</span></div>
+                <span class="project-link">케이스 스터디 <b>→</b></span>
+              </div>
+            </a>
+
+            <a class="project-card reveal" href="https://github.com/topics/artificial-intelligence" target="_blank" rel="noopener noreferrer" aria-label="Nova Workspace 관련 링크 열기">
+              <div class="project-image">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwV5imoMPJleDUPG0cAoUyiMEPJpO3xgFSTslMAFXSkHmVLmMUZpx0_1bSNvSKsQPQPRxRrbmsiKlCM5aMCK_ZR3kLPAB5QNMRPlM-uipReeiXz6NH5i-No90G_0SzBWry0T5SSeIxSfxv00JgyfxgqxujSIp82_lqYogvjim0RgOC-0Cg6si3YoNHG-gfwbwZaNEPgkMFPnSuQH4Wthy9mdWpCijS3fWaci7jucqxQru51kNJVyFR" alt="Nova Workspace 협업 도구" loading="lazy" />
+                <span>AI-Powered Workspace</span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Project 02</span><time>2023 — 2024</time></div>
+                <h3>Nova Workspace</h3><h4>팀 협업 AI 워크스페이스</h4>
+                <p>AI 어시스턴트 기반의 지능형 협업 문서 및 프로젝트 관리 경험을 설계했습니다.</p>
+                <div class="result"><small>♜ 정량적 성과</small><b>DAU 400% 성장 · 디자인 어워드 수상</b></div>
+                <div class="tags"><span>SaaS</span><span>AI Interface</span><span>Web App</span></div>
+                <span class="project-link">프로덕트 분석서 <b>→</b></span>
+              </div>
+            </a>
+
+            <a class="project-card reveal" href="https://github.com/topics/ecommerce" target="_blank" rel="noopener noreferrer" aria-label="Echo Commerce 관련 링크 열기">
+              <div class="project-image">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0O74dnpzC1mPbxepz1jtAqQYNyCk5t4ZQR-KccKFBE7zUucOs6FnxAd5R_fSC_UxR_2cdK3BT-2w6r4riQ7hodez-aOGwXXdzBfZlyJKi1HxVb1SPC2N7K5K2iyjju5rvjH3rP5pL5k5nqJdMwPRbsCL2jDGIZxkE8sq0TB3YkQL_oMtFA8LBANc3zMFXePic7AqmektUukKPkCU38FCyCgjTSW9wWvb-6UOwk810_jCLE3FHEYUT" alt="Echo Commerce 모바일 쇼핑 화면" loading="lazy" />
+                <span>Mobile First Experience</span>
+              </div>
+              <div class="project-body">
+                <div class="project-meta"><span>Project 03</span><time>2023</time></div>
+                <h3>Echo Commerce</h3><h4>반응형 라이프스타일 커머스</h4>
+                <p>개인화 추천 알고리즘과 심리스한 원클릭 결제 경험을 제공하는 모바일 퍼스트 서비스입니다.</p>
+                <div class="result"><small>◴ 정량적 성과</small><b>결제 이탈률 18% 감소 · 속도 40% 개선</b></div>
+                <div class="tags"><span>E-Commerce</span><span>Mobile UX</span><span>Conversion</span></div>
+                <span class="project-link">UX 리서치 보고서 <b>→</b></span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-cta reveal">
+            <div><span class="eyebrow">COLLABORATION &amp; CONSULTING</span><h3>함께 새로운 비즈니스 임팩트를 만드실 준비가 되셨나요?</h3><p>시스템 구축 및 프로덕트 디자인 관련 논의는 언제든 환영합니다.</p></div>
+            <a class="button button-primary" href="#contact">프로젝트 문의하기 <span>▷</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact" aria-labelledby="contact-title">
+        <div class="container">
+          <div class="section-heading reveal">
+            <span class="status-pill"><i></i> AVAILABLE FOR NEW PROJECTS</span>
+            <h2 id="contact-title">Contact <em>— 언제든 편하게 연락 주세요</em></h2>
+            <p>새로운 프로젝트 협업이나 커피챗 제안은 언제나 환영합니다.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-sidebar">
+              <article class="contact-card reveal">
+                <span class="eyebrow">DIRECT CHANNEL</span><h3>직접 연락하기</h3>
+                <a class="email-box" href="mailto:jihoon.jeong.design@example.com?subject=프로젝트%20문의">
+                  <small>이메일 주소</small><strong>jihoon.jeong.design@example.com</strong><span>메일 쓰기 ↗</span>
+                </a>
+                <div class="contact-details"><div><small>위치</small><b>⌖ 서울 강남구</b></div><div><small>근무 형태</small><b>▱ Remote 가능</b></div></div>
+                <p class="response-time"><small>평균 응답 속도</small><span>ϟ 영업일 기준 24시간 이내 답변드립니다</span></p>
+              </article>
+              <article class="contact-card reveal">
+                <span class="eyebrow">DIGITAL FOOTPRINT</span><h3>소셜 &amp; 전문 플랫폼</h3>
+                <div class="social-grid">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><b>⌘ GitHub</b><small>@sample-profile</small></a>
+                  <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><b>♙ LinkedIn</b><small>in/sample-profile</small></a>
+                  <a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer"><b>◉ Behance</b><small>Design Works</small></a>
+                  <a href="https://medium.com/" target="_blank" rel="noopener noreferrer"><b>▤ Tech Blog</b><small>Medium</small></a>
+                </div>
+              </article>
+            </div>
+
+            <form class="contact-form reveal" id="contact-form">
+              <span class="eyebrow">QUICK INQUIRY FORM</span><h3>프로젝트 제안 및 문의</h3><p>간단한 정보를 남겨주시면 이메일 작성창으로 연결해 드립니다.</p>
+              <div class="form-row"><label>이름 (Name) *<input id="name" name="name" type="text" placeholder="홍길동" required /></label><label>이메일 (Email) *<input id="email" name="email" type="email" placeholder="name@company.com" required /></label></div>
+              <fieldset><legend>프로젝트 유형 선택 (Project Scope) *</legend><div class="scope-options"><label><input type="radio" name="scope" value="UI/UX 디자인" checked /><span><b>UI/UX 디자인</b><small>시스템 &amp; 제품 설계</small></span></label><label><input type="radio" name="scope" value="프론트엔드 개발" /><span><b>프론트엔드 개발</b><small>Web &amp; 앱 구현</small></span></label><label><input type="radio" name="scope" value="컨설팅 / 커피챗" /><span><b>컨설팅 / 커피챗</b><small>기술 및 전략 자문</small></span></label></div></fieldset>
+              <label>메시지 (Message) *<textarea id="message" name="message" rows="6" placeholder="프로젝트 목표, 예상 일정, 예산 규모 또는 궁금하신 점을 자유롭게 적어주세요." required></textarea></label>
+              <button class="button button-primary submit-button" type="submit">이메일로 메시지 보내기 <span>▷</span></button>
+              <div class="form-notes"><span>♢ <b>NDA 및 보안 준수</b><small>모든 프로젝트 정보는 기밀로 유지됩니다.</small></span><span>□ <b>일정 조율 가능</b><small>사전 협의를 통한 유연한 미팅 예약.</small></span></div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-top"><div><strong>Jihoon Jeong</strong><span>Portfolio 2026</span><p>Product Designer &amp; Frontend Engineer crafting thoughtful digital experiences.</p></div><a href="mailto:jihoon.jeong.design@example.com" aria-label="이메일 보내기">✉</a></div>
+        <div class="footer-bottom"><p>© 2026 Jihoon Jeong. Example portfolio content.</p><nav aria-label="하단 메뉴"><a href="#home">Home</a><a href="#projects">Selected Works</a><a href="#about">Profile</a></nav></div>
+      </div>
+    </footer>
+  </body>
+</html>

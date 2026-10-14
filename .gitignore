@@ -1,0 +1,17 @@
+# Local design references and exports
+stitch-export/
+stitch_.zip
+
+# Generated deployment artifacts
+.openai/
+dist/
+site-publish/
+site-source.zip
+.sites-checkout*/
+.sites-runtime/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
